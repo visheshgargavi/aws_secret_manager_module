@@ -9,7 +9,7 @@ This module is used to create following AWS resources
 ## Examples
 ```hcl
 module "aws_secret_manager" {
-  source = "github.com/visheshgargavi/terraform_module?ref=v0.0.1"
+  source = "github.com/visheshgargavi/aws_secret_manager_module?ref=v0.0.1"
   create_secret = true
   secret_rotation_rules_automatically_after_days = 7
   replica_region = "ap-south-1"
